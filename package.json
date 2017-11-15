@@ -1,0 +1,30 @@
+{
+  "name": "generator-vue-component-dev",
+  "version": "0.0.0",
+  "description": "A scaffolding tool allowing developers create vue component with demo page, dev page with hot reloading, testing with coverage check, linting.",
+  "main": "index.js",
+  "repository": "git@github.com:BigYu/generator-vue-component-dev.git",
+  "author": "Yucong Jin(jinyucong911@outlook.com)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "change-case": "^3.0.1",
+    "glob": "^7.1.2",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "vue",
+    "component"
+  ],
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
