@@ -1,30 +1,16 @@
 <template>
   <div>
-    <h3>This is vue projection grid - basic demo</h3>
-    <grid :config="config" />
+    <h3><%= exportName %> - default demo</h3>
+    <child />
   </div>
 </template>
 
 <script>
 import <%= exportName %> from '<%= packageName %>'; // eslint-disable-line
 
-import people from './people.json';
-
 export default {
   components: {
-    grid: <%= exportName %>,
-  },
-  data() {
-    return {
-      config: {
-        tableClasses: ['table', 'table-bordered'],
-        dataSource: {
-          type: 'memory',
-          data: people.value,
-          primaryKey: 'UserName',
-        },
-      },
-    };
+    child: <%= exportName %>,
   },
 };
 </script>
