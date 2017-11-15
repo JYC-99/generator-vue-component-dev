@@ -30,7 +30,7 @@ npm install -g generator-vue-component-dev
 
 ### component entry point:
 
-src/index.js
+src/index.vue
 
 ### build
 
