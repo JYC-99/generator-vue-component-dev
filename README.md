@@ -17,12 +17,12 @@ A scaffolding tool allowing developers create vue component with demo page, dev 
 - install the generator:
 
 ```bash
-npm install -g generator-vue-component-dev
+npm install -g generator-vue-component-dev-kit
 ```
 
 - Change working directory to your project code base. And run ```yarn``` to install the dependencies. You may want to mannually modify the dependencies/devDependencies in package.json if you wish.
 
-- `yo vue-component-dev`
+- `yo vue-component-dev-kit`
   - You need to type in your component name in the prompting dialog.
   - The generator will transform it to PascalCase as component export name, and param-case as package name.
 
