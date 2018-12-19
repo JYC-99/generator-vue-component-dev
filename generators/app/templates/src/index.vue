@@ -2,6 +2,7 @@
   <div>
     <h3><%= packageName %> placeholder</h3>
     <span>{{ message }}</span>
+    <input v-model="message">
   </div>
 </template>
 
