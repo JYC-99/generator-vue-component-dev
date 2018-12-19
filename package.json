@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-component-dev-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scaffolding tool allowing developers create vue component with demo page, dev page with hot reloading, testing with coverage check, linting.",
   "main": "index.js",
   "repository": "git@github.com:BigYu/generator-vue-component-dev.git",
