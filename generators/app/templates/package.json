@@ -31,7 +31,7 @@
     "raf": "^3.4.0",
     "sinon": "^4.1.2",
     "vue-jest": "^1.0.2",
-    "vue-loader": "^13.0.5",
+    "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.4.4",
     "vue-test-loader": "^0.4.0",
     "vue-test-utils": "^1.0.0-beta.4",
